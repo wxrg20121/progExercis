@@ -8,7 +8,7 @@ public class Exercise_2 {
         if (k<=0 || k>input.length) return arrayList;
         int left = 0;
         int right = input.length-1;
-        int mid = partition(input,left,right);
+        int mid = partition(input,left,right); //写的不错
         if (k-1!=mid){
             if (mid>k-1){
                 mid = partition(input,left,mid);
